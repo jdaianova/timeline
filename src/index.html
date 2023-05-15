@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="chat">
+            <!-- <div class="message">
+                <div class="message-time">15.03.20 08:40</div>
+                <div class="message-content">dsjdhf sdfjsdjf skdjf sdf skdjf</div>
+                <div class="message-location">
+                    <div class="icon-geo"></div>
+                    <p class="message-location-coords">[51.50851, −0.12572]</p>
+                </div>
+            </div> -->
+        </div>
+
+        <div class="input-field">
+            <input type="text" class="input-text" placeholder="enter your message...">
+            <button class="btn-enter-message">
+                <img src="./images/enter.png" alt="enter" width="25px">
+            </button>
+            <button class="btn-input-voice">
+                <img src="./images/mic.svg" alt="mic" width="25px">
+            </button>
+            <button class="btn-input-video">
+                <img src="./images/video.png" alt="cam" width="25px">
+            </button>
+        </div>
+
+        <div class="popup-enter-location invisible">
+            <div>
+                <p class="user-denied-geolocation">User denied Geolocation.</p>
+                <p>Enter your location, please</p>
+                <p class="popup-requered-format">requered format: [00.00000, 00.00000]</p>
+                <input class="popup-input" type="text" placeholder="[51.50851, -0.12572]">
+                
+                <div>
+                    <button class="btn-popup-input-ok">ok</button>
+                    <button class="btn-popup-input-cancel">don't want</button>
+                </div>
+                <div class="format-notification"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
